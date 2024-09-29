@@ -22,3 +22,14 @@ void divide(double num1, double num2) {
         cout << "Error: Division by zero!" << endl;
     }
 }
+
+int main() {
+    double num1, num2;
+    char operation;
+    bool validOperation = false;
+
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
+}
