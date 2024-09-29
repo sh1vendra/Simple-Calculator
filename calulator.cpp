@@ -32,4 +32,9 @@ int main() {
     cin >> num1;
     cout << "Enter second number: ";
     cin >> num2;
+
+    while (!validOperation) {
+        cout << "Enter operation (+, -, *, /): ";
+        cin >> operation;
+    }
 }
